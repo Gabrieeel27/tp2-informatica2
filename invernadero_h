@@ -1,0 +1,17 @@
+#include <stdio.h>
+#define invernadero_h
+
+typedef enum {
+    E_INICIO = 0,
+    E_MEDIR,
+    E_TEMP,
+    E_HUM,
+    E_C02,
+    E_LUZ,
+    E_ESPERA,
+    estados_cantidad
+}estados_t;
+
+typedef struct{ 
+  
+  }
