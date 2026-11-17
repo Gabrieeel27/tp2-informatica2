@@ -23,8 +23,8 @@ typedef struct{
   } referencia_t;
 
 typedef struct{
-    sensores_t sensores
-    referencia_t referencia
+    sensores_t sensores;
+    referencia_t referencia;
 } programa_t;
 
 //prototipos
