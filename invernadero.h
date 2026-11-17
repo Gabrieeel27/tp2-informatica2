@@ -15,17 +15,17 @@ typedef enum {
 typedef struct{ 
     float t,hum;
     int c02,hora;
-  } sensores_t
+  } sensores_t;
 
 typedef struct{ 
     float t_ref,hum_ref;
     int c02_max;
-  } referencia_t
+  } referencia_t;
 
 typedef struct{
     sensores_t sensores
     referencia_t referencia
-}programa_t
+} programa_t;
 
 //prototipos
 
