@@ -29,10 +29,10 @@ typedef struct{
 
 //prototipos
 
-estados_t prot_INICIO(programa_t *prog);
-estados_t prot_MEDIR(programa_t *prog);
-estados_t prot_TEMP(programa_t *prog);
-estados_t prot_HUM(programa_t *prog);
-estados_t prot_C02(programa_t *prog);
-estados_t prot_LUZ(programa_t *prog);
-estados_t prot_ESPERA(programa_t *prog);
+estados_t t_INICIO(programa_t *prog);
+estados_t t_MEDIR(programa_t *prog);
+estados_t t_TEMP(programa_t *prog);
+estados_t t_HUM(programa_t *prog);
+estados_t t_C02(programa_t *prog);
+estados_t t_LUZ(programa_t *prog);
+estados_t t_ESPERA(programa_t *prog);
